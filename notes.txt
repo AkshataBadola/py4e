@@ -1,0 +1,142 @@
+1. Installing Python
+-Done.
+
+2. Why Program?
+Part I
+-Computers do what they are told to do. 
+- Basically we get them to do what we need. 
+-We use tools within the computer.
+-We solve problems. programming is a sequence of instructions in order to solve different problems which helps handles different tasks as well as handles the problems.
+-Computers take thins very literally ie they recognize intellectually correct things and get confused very easily.
+-Computers are very good at text recognition 
+
+Part II - Hardware Architecture
+-Secondary Storage : Where all the memory is saved even after the laptop is switch off.
+- Random Access Memory(RAM), Central Processing Unit(CPU), Peripherals, Input devices, Capacitors, Resistors, Wires, Transistors. 
+-Raspberry Pie : Single board computers where architecture is same but less components. Microprocessing unit/central processing unit is the brain of the computer. We store instructions in the main memory(very fast but the memory gets erased as soon as it is turned off).
+Motherboard : Connects all components together.
+- There is a translation that happens when you write a python code,python translates this code to machine language. 
+
+Part III - Python as a language
+- Syntax Error : Python does'nt understand what you're saying, so it gives an error.
+quit()/exit() : Works to end interactive session
+
+
+Vocabulary/Words - Variables and Reserved Words
+
+Part IV
+-Reserved Words : words that python expects to mean only what it is and can't mean anything else other than what it is supposed to mean. You cant use them in any other way like variable names/identifiers.
+
+Programming in Python - Python scripts
+-We type programs into a file and tell python to run the commands in the file
+-Extension is .py
+-When a program is running it flows from one step to the next
+-This is basically setting up a path for the program to follow.
+-Indentation is very important in Python.
+-Loops(repeated steps) have iteration variables that change each time through a loop. 
+-Sequential, Repeated, Conditional loops
+
+
+Sentence Structure - Valid Syntax Patterns
+
+3. Variables, expressions and statements
+Part - I
+- Constants : Things that don't change ie fixed values. Could be anything like numbers(), letters(""), strings("")
+-Reserved Words : have a special meaning, it means hoe python executes meaning of the word. 
+-Variables : It is a memory location to store value. We can allocate a piece of value and give it a name and store data and later retrieve it using its name. We can change the value/content of the variable.
+-spam Spam SPAM are all different variables.
+-Assignment Values: We assign a value to a variable using = . An assignment statement consists of an expression on the RHS and a variable to store the result. The LHS is evaluated before changing the RHS variables value.
+
+Part - II
+-Expressions 
+i) Numeric Expressions
+-Precedence : (), ^,/*,+-,L->R
+-DataType: type() tells us the datatype of anything
+-Type Conversion: Implicitly conversion of datatype. u can control this.
+-Division produces a floating point result
+-You will get an error if the string doe not contain numeric characters and you try to convert it  integer and float.
+-#Comments : 
+
+4. Conditional Execution
+-if: one way or the other, make python make decisions based on a condition.
+-Boolean Expressions are comparison operators which answer yes or no
+-Nested if : if within an if
+-Two way decisions : if-else , Sometimes we want to do one thing if a logical expression is true something else if its false. Its like a fork road where we can choose only 1 path.
+-Multi way: if-elif-else 
+elif is another reserved word. if its true it does'nt check the other conditions at all. Does'nt check the 2nd q unless the 1st is false
+-Try-except structure: You surround an area of code which u think might we dangerous, that might fail/blow up with the try and except structure. if the code in the try works then except is skipped, if thr try fails, python jumps to the except block
+
+5. Functions
+-Store and reuse, we don't need to repeat ourselves. 
+-functions are thus reusable code in python that takes argument/s as input does some computation and then returns a result/s
+-keyword used is def stands for define function
+-We call/invoke the function by using the function name, parentheses and arguments in an expression
+-Types:
+Builtin Functions : input(), type(), float(), int(), etc these are provides as a part of python.
+User defined Functions: functions that we define ourselves and then use
+-When u put an integer and floating point in an expression the integer is Implicitly converted to a float
+-we indent the body of the function
+-this defines the function but does not execute the body of the function 
+
+-Arguments: a value we pass into the function as its input when we call the function. they are used so we can direct the function to do different kinds of work when we cal it at a different time
+
+-Parameter : a variable which is used in the function definition. it is a handle that allows the code in the function to access the arguments for a particular function invocation. Things that are going in. life is only existing till the time of the function and acts like a placeholder
+
+-return values: often a function will take its arguments, do some computing and return a value to be used as the value of the function call in the calling expression. return does this.
+
+-a fruitful function is one that produces a result or return value.
+the return statement ends the function execution and sends back the result of the function
+we can define more than 1 Parameter in the function definition, we simply add more arguments when we call the function, we need to match the number and order of arguments and Parameter.
+
+-void/non fruitful functions: when a function does not return a value, we call it a void. 
+
+-to function or not to function : basically organize ur code into paras to capture a complete thought and name it, don't repeat yourself, make it work once and always reuse code, if something gets to long, break it up into logical chunks and put those chunks in functions. Make a library of common stuff that u do over and over 
+
+
+Story Structure
+6. Loops and Iterations
+Sequential, Conditional, Store and reuse and loops and iterations.
+-Loops are repeated steps and have iteration variables that change each time thru a loop
+-often these variables go thru a sequence of numbers
+-break statement ends the current loop and jumps to the statement immediately following the loop
+-continue statement ends the current iteration and jumps to the top of the loop and starts the next iteration
+-the loops that use while may be indefinite loops because they keep going on until a logical condition becomes false
+
+-definite loops use the for keyword . for is used to run the loop once for each item in a set.
+-These are called definite loops and they iterate thru the members of a set
+-definite loops have explicit iteration variables that change each time thru a loop. These iteration variables move thru the sequence or set
+- the iteration variable iterates thru the sequence or the ordered setting
+
+Loop Idioms - Patterns, Making smart loops
+- we set something at the beginning do something to each and get something in return
+-to count how many times we execute a loop, we introduce a counter variable that starts at 0  and we add one to it each time thru the loop
+
+-is operator that can be used in logical operations and implies 'is the same as' and is similar to but stronger than the == operator
+Eg. 0 == 0.0 will give True 
+    0 is 0.0 will give False used in boolean and on None type
+
+-similarly there is also a not is operator
+
+
+7. Strings
+
+8. Files
+
+9. Lists
+
+10. Dictionaries
+
+11. Tuples
+
+12. Regular Expressions
+
+13. Network Programming
+
+14. Using Web Services
+
+15. Object-Oriented Programming
+
+16. Databases
+
+17. Data Visualization
+
