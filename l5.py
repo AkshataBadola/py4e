@@ -104,3 +104,23 @@ for n in [9, 39, 20, 83, 2]:
         smallest = n
     print("the smallest number is:", smallest, "and number is :", n)
 print(smallest)
+
+
+#exercie
+num = 0
+tot = 0.0
+while True:
+    sval = input("Enter a number: ")
+    if sval == 'done':
+        break
+    try:
+        fval = float(sval)
+    except:
+        print("Invalid")
+        continue
+    #print(fval)
+    num = num+1
+    tot = tot+fval
+    
+#print('All done')
+print(tot,num,tot/num)
